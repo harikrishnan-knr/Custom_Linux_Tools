@@ -64,6 +64,7 @@ colorama
 ## 🧰 Usage
 
 Once installed, run the tool from anywhere in your terminal:
+
 [1] qrcode
 
 ```bash
