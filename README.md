@@ -25,8 +25,8 @@ colorama
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/harikrishnan-knr/Custom_Linux_Commands.git
-   cd Custom_Linux_Commands
+   git clone https://github.com/harikrishnan-knr/Custom_Linux_Tools.git
+   cd Custom_Linux_Tools
    ```
 
 2. (Recommended) Create and activate a virtual environment, then install the Python dependencies:
@@ -40,8 +40,8 @@ colorama
 3. Run the installer script and follow the prompt:
 
    ```bash
-   chmod +x QR-Code.sh
-   ./QR-Code.sh
+   chmod +x install.sh
+   ./install.sh
    ```
 
    You'll be asked:
@@ -86,8 +86,8 @@ $ qrcode
 ## 📁 Project Structure
 
 ```
-Custom_Linux_Commands/
-├── QR-Code.sh          # Installer script — copies `qrcode` into /usr/local/bin
+Custom_Linux_Tools/
+├── install.sh          # Installer script — copies `qrcode` into /usr/local/bin
 ├── qrcode               # The actual QR code generator command (Python)
 ├── requirements.txt      # Python dependencies
 └── README.md
