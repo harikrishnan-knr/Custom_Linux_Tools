@@ -53,11 +53,9 @@ python3 -m pip install --upgrade pip
    cd Custom_Linux_Tools
    ```
 
-2. (Recommended) Create and activate a virtual environment, then install the Python dependencies:
+2. (Recommended) Install the Python dependencies:
 
    ```bash
-   python3 -m venv .venv
-   source .venv/bin/activate
    python3 -m pip install --break-system-packages requirements.txt
    ```
 
