@@ -5,6 +5,7 @@ A small collection of custom command-line tools for Linux, installed as standalo
 Currently included:
 
 - **`qrcode`** — generate a QR code image from any text or URL, right from your terminal.
+- **`voice`** — generate a QR code image from any text or URL, right from your terminal.
 
 ## 📦 Requirements
 
@@ -48,7 +49,7 @@ colorama
 
    ```
    QR Code Generator Tool
-   Is This OK To Install The Tool [y/n]:
+   Is This OK To Install The Tools [y/n]:
    ```
 
    Enter `y` to install. This copies the `qrcode` script to `/usr/local/bin/` and makes it executable, so it becomes available as a regular command on your system.
