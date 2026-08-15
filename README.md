@@ -160,4 +160,4 @@ More custom Linux commands are planned for this repo. Contributions, ideas, and 
 
 ## 📄 License
 
-No license has been specified yet for this repository. Until one is added, please check with the repository owner before reusing this code.
+It is a Free & Open Source project, Can you and intergrate with any software or OS.
