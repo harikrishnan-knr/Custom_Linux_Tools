@@ -1,0 +1,13 @@
+#!/usr/bin/env python3
+
+from gtts import gTTS
+
+text = input(f"\033[32m Enter the content you want to convert into Speech : ")
+
+save = input(f"\033[32m Enter the file path, file name & file type ( Mention the file type like : .mp3 ) : ")
+
+tts = gTTS(text=text, lang="en")
+
+tts.save(save)
+
+print(f"\033[32m Speech Audio Saved Successfully !!!")
