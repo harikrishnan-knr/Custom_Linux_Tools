@@ -79,7 +79,7 @@ $ qrcode
  Hi Hello !!!
  It is a QR Code Generator Script...
  Enter the input value : https://github.com/harikrishnan-knr
- Enter the file path, file name, & file type ( mentaion the file type : like .png .jpg) : ~/Desktop/qr.png
+ Enter the file path, file name, & file type ( Mention the file type : like .png .jpg) : ~/Desktop/qr.png
  QR Code Successfully Generated !!!
 ```
 
