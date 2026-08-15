@@ -1,11 +1,11 @@
-# Custom Linux Commands
+# Custom Linux Tools
 
 A small collection of custom command-line tools for Linux, installed as standalone commands you can run from anywhere on your system.
 
 Currently included:
 
 - **`qrcode`** — generate a QR code image from any text or URL, right from your terminal.
-- **`voice`** — generate a QR code image from any text or URL, right from your terminal.
+- **`voice`** — generate a voice audio from any text, right from your terminal.
 
 ## 📦 Requirements
 
@@ -48,8 +48,9 @@ colorama
    You'll be asked:
 
    ```
-   QR Code Generator Tool
-   Is This OK To Install The Tools [y/n]:
+   [1]QR Code Generator Tool
+   [2] Text To Voice Generator Tool
+   "Is This OK To Install The Tools [y/n]:
    ```
 
    Enter `y` to install. This copies the `qrcode` script to `/usr/local/bin/` and makes it executable, so it becomes available as a regular command on your system.
@@ -84,13 +85,35 @@ $ qrcode
  QR Code Successfully Generated !!!
 ```
 
+```bash
+voice
+```
+
+You'll be prompted for:
+
+1. **Input value** — the text, link, or data you want encoded into the QR code.
+2. **Output file path** — where to save the generated voice, including the file name and extension (e.g. `.mp3`).
+
+Example session:
+
+```
+$ voice
+ Hi Hello !!!
+ It is a Text To Voice Generator Script...
+ Enter the content : hi, hello!!!
+ Enter the file path, file name & file type ( Mention the file type like : .mp3 ) : ~/Desktop/hello.mp3
+ Voice Audio Saved Successfully !!!
+```
+
+
 ## 📁 Project Structure
 
 ```
 Custom_Linux_Tools/
 ├── install.sh          # Installer script — copies `qrcode` into /usr/local/bin
 ├── qrcode               # The actual QR code generator command (Python)
-├── requirements.txt      # Python dependencies
+├── voice                 # The actual voice generator command (Python)
+├── requirements.txt       # Python dependencies
 └── README.md
 ```
 
@@ -101,6 +124,7 @@ Custom_Linux_Tools/
 
   ```bash
   sudo rm /usr/local/bin/qrcode
+  sudo rm /usr/local/bin/voice
   ```
 
 ## 🤝 Contributing
