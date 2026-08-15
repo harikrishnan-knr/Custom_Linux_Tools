@@ -1,15 +1,18 @@
 #!/bin/bash
 
-echo "QR Code Generator Tool"
-echo "Is This OK To Install The Tool [y/n]: "
+echo "[1] QR Code Generator Tool"
+echo "[2] Text To Voice Generator Tool"
+echo "Is This OK To Install The Tools [y/n]: "
 read type
 
 if [ $type == "y" ] || [ $type == "Y" ]; then
 # Script Writing...
 sudo cp qrcode /usr/local/bin/
+sudo cp voice /usr/local/bin/
 
 # Executing Permission...
 sudo chmod +x /usr/local/bin/qrcode
+sudo chmod +x /usr/local/bin/voice
 
 elif [ $type == "n" ] || [ $type == "N" ]; then
 # Script Not Writing and Exit the Installation Process...
