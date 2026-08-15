@@ -58,7 +58,7 @@ python3 -m pip install --upgrade pip
    ```bash
    python3 -m venv .venv
    source .venv/bin/activate
-   pip install -r requirements.txt
+   python3 -m pip install --break-system-packages requirements.txt
    ```
 
 3. Run the installer script and follow the prompt:
