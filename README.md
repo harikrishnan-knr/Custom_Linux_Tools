@@ -137,7 +137,7 @@ $ voice
 
 ```
 Custom_Linux_Tools/
-├── install.sh          # Installer script — copies `qrcode` into /usr/local/bin
+├── install.sh          # Installer script — copies python scripts into /usr/local/bin
 ├── qrcode               # The actual QR code generator command (Python)
 ├── voice                 # The actual voice generator command (Python)
 ├── requirements.txt       # Python dependencies
