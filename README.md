@@ -77,7 +77,7 @@ python -m pip install --upgrade pip
    Is This OK To Install The Tools [y/n]:
    ```
 
-   Enter `y` to install. This copies the `qrcode` script to `/usr/local/bin/` and makes it executable, so it becomes available as a regular command on your system.
+   Enter `y` to install. This copies the `qrcode`, `voice`script to `/usr/local/bin/` and makes it executable, so it becomes available as a regular command on your system.
 
 4. When you're done working in the virtual environment, you can exit it with:
 
