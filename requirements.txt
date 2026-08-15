@@ -1,5 +1,3 @@
 qrcode
 gTTS
-rembg[cpu]
-Pillow
 colorama
