@@ -13,9 +13,27 @@ Currently included:
 - Python 3
 - `sudo` privileges (needed to install the command into `/usr/local/bin`)
 
+## Pre-installation
+
+1. Debian Based Linux
+
 ```
 sudo apt update
-sudo apt install -y python3 python3-venv python3-pip
+sudo apt install python3 python3-venv python3-pip -y
+python -m pip install --upgrade pip
+```
+2. Arch Based Linux
+
+```
+sudo pacman -Syyu
+sudo pacman -S python3 python3-venv python3-pip
+python -m pip install --upgrade pip
+```
+3. Red Hat Based Linux
+
+```
+sudo dnf update
+sudo dnf install python3 python3-venv python3-pip -y
 python -m pip install --upgrade pip
 ```
 
