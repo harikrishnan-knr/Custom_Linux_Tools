@@ -56,7 +56,7 @@ python -m pip install --upgrade pip
 2. (Recommended) Create and activate a virtual environment, then install the Python dependencies:
 
    ```bash
-   python -m venv .venv
+   python3 -m venv .venv
    source .venv/bin/activate
    pip install -r requirements.txt
    ```
