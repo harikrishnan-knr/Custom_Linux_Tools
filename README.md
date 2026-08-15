@@ -13,6 +13,12 @@ Currently included:
 - Python 3
 - `sudo` privileges (needed to install the command into `/usr/local/bin`)
 
+```
+sudo apt update
+sudo apt install -y python3 python3-venv python3-pip
+python -m pip install --upgrade pip
+```
+
 Python dependencies are listed in [`requirements.txt`](requirements.txt):
 
 ```
