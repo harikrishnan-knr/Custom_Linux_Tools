@@ -13,6 +13,14 @@ Currently included:
 - Python 3
 - `sudo` privileges (needed to install the command into `/usr/local/bin`)
 
+Python dependencies are listed in [`requirements.txt`](requirements.txt):
+
+```
+qrcode
+gTTS
+colorama
+```
+
 ## Pre-installation
 
 1. Debian Based Linux
@@ -35,14 +43,6 @@ python -m pip install --upgrade pip
 sudo dnf update
 sudo dnf install python3 python3-venv python3-pip -y
 python -m pip install --upgrade pip
-```
-
-Python dependencies are listed in [`requirements.txt`](requirements.txt):
-
-```
-qrcode
-gTTS
-colorama
 ```
 
 ## 🚀 Installation
