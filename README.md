@@ -48,7 +48,7 @@ colorama
    You'll be asked:
 
    ```
-   [1]QR Code Generator Tool
+   [1] QR Code Generator Tool
    [2] Text To Voice Generator Tool
    Is This OK To Install The Tools [y/n]:
    ```
