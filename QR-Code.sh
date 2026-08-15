@@ -6,25 +6,7 @@ read type
 
 if [ $type == "y" ] || [ $type == "Y" ]; then
 # Script Writing...
-sudo echo"#!/usr/bin/env python3
-
-import qrcode
-
-print(f"\033[32m Hi Hello !!!")
-
-print(f"\033[32m It is a QR Code Generator Script...")
-
-data_input = input(f"\033[32m Enter the input value : ")
-
-save_path = input(f"\033[32m Enter the file path, file name, & file type ( mentaion the file type : like .png .jpg) : ")
-
-qr = qrcode.make(data_input)
-
-qr.save(save_path)
-
-print(f"\033[32m QR Code Successfully Generated !!!")
-
-" >> /usr/local/bin/qrcode
+sudo cp qrcode /usr/local/bin/
 
 # Executing Permission...
 sudo chmod +x /usr/local/bin/qrcode
