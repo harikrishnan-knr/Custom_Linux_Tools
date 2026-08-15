@@ -50,7 +50,7 @@ colorama
    ```
    [1]QR Code Generator Tool
    [2] Text To Voice Generator Tool
-   "Is This OK To Install The Tools [y/n]:
+   Is This OK To Install The Tools [y/n]:
    ```
 
    Enter `y` to install. This copies the `qrcode` script to `/usr/local/bin/` and makes it executable, so it becomes available as a regular command on your system.
