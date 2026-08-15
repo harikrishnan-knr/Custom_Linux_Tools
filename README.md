@@ -64,6 +64,7 @@ colorama
 ## 🧰 Usage
 
 Once installed, run the tool from anywhere in your terminal:
+[1] qrcode
 
 ```bash
 qrcode
@@ -84,6 +85,7 @@ $ qrcode
  Enter the file path, file name, & file type ( Mention the file type : like .png .jpg) : ~/Desktop/qr.png
  QR Code Successfully Generated !!!
 ```
+[2] voice
 
 ```bash
 voice
