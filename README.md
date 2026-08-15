@@ -32,8 +32,7 @@ sudo apt install python3 python3-venv python3-pip -y
 2. Arch Based Linux
 
 ```
-sudo pacman -Syyu
-sudo pacman -S python3 python3-venv python3-pip
+sudo pacman -Syu python3 python3-venv python3-pip
 ```
 3. Red Hat Based Linux
 
