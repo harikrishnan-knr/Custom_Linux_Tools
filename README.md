@@ -27,22 +27,22 @@ colorama
 
 ```
 sudo apt update
-sudo apt install python3 python3-venv python3-pip -y
+sudo apt install python3 python3-venv python3-pip python3-full -y
 ```
 2. Arch Based Linux
 
 ```
-sudo pacman -Syu python3 python3-venv python3-pip
+sudo pacman -Syu python3 python3-venv python3-pip python3-full
 ```
 3. Red Hat Based Linux
 
 ```
 sudo dnf update
-sudo dnf install python3 python3-venv python3-pip -y
+sudo dnf install python3 python3-venv python3-pip python3-full -y
 ```
 If you have Older version of python, then update your python packages
 ```
-python -m pip install --upgrade pip
+python3 -m pip install --upgrade pip
 ```
 ## 🚀 Installation
 
