@@ -8,7 +8,7 @@ print(f"\033[32m It is a QR Code Generator Script...")
 
 data_input = input(f"\033[32m Enter the input value : ")
 
-save_path = input(f"\033[32m Enter the file path, file name, & file type ( mentaion the file type : like .png .jpg) : ")
+save_path = input(f"\033[32m Enter the file path, file name, & file type ( Mention the file type : like .png .jpg) : ")
 
 qr = qrcode.make(data_input)
 
